@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiguelMoya_JavaScript</title>
+    <link rel="stylesheet" href="../CSS/estilos.css">
+    <script src="../JAVASCRIPT/calcular.js"></script>
+
+</head>
+<body>
+    <h1>FORMULARIO:</h1>
+
+    <div class="contenido">
+        <div>
+            <h2>Nombre del alumno:</h2>
+            <p><input type="text" id="nombre" placeholder="Intoduce un nombre"></p>
+    
+            <h2>Notas:</h2>
+            <table>
+                <tr>
+                    <th>Ejercicios</th>
+                    <th>Teorico</th>
+                    <th>Practico</th>
+                    <th>Proyecto</th>
+                </tr>
+    
+                <tr>
+                    <td><input type="number" id="notaEj" min="0" max="10" value="0"></td>
+                    <td><input type="number" id="notaTeorico" min="0" max="10" value="0"></td>
+                    <td><input type="number" id="notaPractico" min="0" max="10" value="0"></td>
+                    <td><input type="number" id="notaProyecto" min="0" max="10" value="0"></td>
+                </tr>
+            </table>
+            <button type="button" onclick="calcularNota()">Calcular</button>
+            <button type="button" onclick="borrar()">Borrar</button>
+        </div>
+
+        <div class="resultado" id="resultado">
+            <p id="resultadoMensaje"></p>
+        </div>
+    </div>
+   
+</body>
+</html>

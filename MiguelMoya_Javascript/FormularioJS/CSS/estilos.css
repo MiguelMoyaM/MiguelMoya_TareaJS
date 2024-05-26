@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    text-decoration:underline;
+}
+
+.contenido{
+    width: fit-content;
+    border: 2px solid black;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+input{
+    transition: 0.25s;
+}
+input:hover{
+    background-color: rgb(237, 237, 237);
+}
+table{
+    margin: 0 auto;
+}
+
+button{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.resultado{
+  display: none;
+    border: 1px solid black;
+}
+
+
+  
